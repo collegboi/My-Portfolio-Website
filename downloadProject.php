@@ -27,7 +27,7 @@ while($row = mysql_fetch_row($result)) {
 		"projectName" => $row[1],
 		"projectDesc" => $row[2],			
 		"projectDate" => $row[3],
-		"projectLocation" => "http://collegboi.me/".str_replace("/var/www/html/", "",$row[4])
+		"projectLocation" => "your url".str_replace("/var/www/html/", "",$row[4])
 		
 	);
 

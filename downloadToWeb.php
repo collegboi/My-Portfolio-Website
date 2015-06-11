@@ -27,7 +27,7 @@ while($row = mysql_fetch_row($result)) {
 		"projectName" => $row[1],
 		"projectDesc" => $row[2],			
 		"projectDate" => $row[3],
-		"projectLocation" => str_replace("/var/www/html/", "",$row[4])
+		"projectLocation" => str_replace("path to images", "",$row[4])
 		
 	);
 
